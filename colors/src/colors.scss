@@ -1,0 +1,18 @@
+:where(html) {
+  --color-palette-light: #fff;
+  --color-palette-dark: #111827;
+  --color-palette-blue: #339af0;
+  --color-palette-green: #51cf66;
+  --color-palette-grey: #adb5bd;
+
+  --color-accent-base: var(--color-palette-dark);
+
+  --color-surface-primary: var(--color-palette-blue);
+  --color-text-on-primary: var(--color-palette-light);
+
+  --color-surface-secondary: var(--color-palette-green);
+  --color-text-on-secondary: var(--color-palette-dark);
+
+  --color-surface-neutral: var(--color-palette-grey);
+  --color-text-on-neutral: var(--color-palette-dark);
+}

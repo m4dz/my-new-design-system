@@ -1,0 +1,24 @@
+.button {
+  background-color: var(--color-surface-neutral);
+  color: var(--color-text-on-neutral);
+  border: 0.08rem solid var(--color-accent-base);
+  margin: 0.2rem;
+  padding: 0.65rem 1rem;
+  border-radius: 0.35rem;
+  cursor: pointer;
+
+  &.primary {
+    background-color: var(--color-surface-primary);
+    color: var(--color-text-on-primary);
+  }
+
+  &.secondary {
+    background-color: var(--color-surface-secondary);
+    color: var(--color-text-on-secondary);
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+  }
+}
